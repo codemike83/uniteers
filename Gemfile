@@ -3,7 +3,6 @@ source 'https://rubygems.org'
 
 gem 'rails', '4.2.5'
 gem 'pg', '~> 0.15'
-gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
@@ -15,9 +14,13 @@ gem 'omniauth'
 gem 'omniauth-facebook'
 gem 'devise'
 gem 'figaro'
-gem 'bootstrap-sass'
 gem 'paperclip'
 gem 'cloudinary'
+
+gem 'bootstrap-sass', '~> 3.3.6'
+gem 'sass-rails', '>= 3.2'
+
+gem 'toastr-rails'
 
 
 group :development, :test do
